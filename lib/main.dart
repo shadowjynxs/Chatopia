@@ -21,7 +21,7 @@ class Chatopia extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: MyRoutes.loginPage,
+      initialRoute: MyRoutes.welcomePage,
       routes: {
         MyRoutes.loginPage: (context) => const LoginPage(),
         MyRoutes.signupPage: (context) => const SignupPage(),
